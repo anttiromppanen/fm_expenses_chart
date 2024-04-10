@@ -56,13 +56,13 @@ function Chart({ expenseData }: { expenseData: ExpenseData[] }) {
         })}
       </div>
       <hr className="my-6 border border-userCream" />
-      <article className="flex justify-between">
+      <article className="flex flex-col justify-between sm:flex-row">
         <div className="text-userDarkBrown">
           <p className="text-userMediumBrown">Total this month</p>
           <p className="mt-1 text-4xl font-bold text-userDarkBrown">$478.33</p>
         </div>
         <div className="flex flex-col justify-end">
-          <p className="text-right text-sm font-bold">+2.4%</p>
+          <p className="mt-4 text-sm font-bold sm:mt-0 sm:text-right">+2.4%</p>
           <p className="text-userMediumBrown">from last month</p>
         </div>
       </article>

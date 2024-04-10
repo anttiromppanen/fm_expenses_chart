@@ -6,6 +6,9 @@ module.exports = {
       fontFamily: {
         sans: ["DM Sans", "sans-serif"],
       },
+      screens: {
+        sm: "340px",
+      },
       colors: {
         userSoftRed: "hsl(10, 79%, 65%)",
         userCyan: "hsl(186, 34%, 60%)",
